@@ -3,3 +3,10 @@ title = "System with Cat"
 baseurl = "http://sys-cat.github.io"
 theme = "cocoa"
 publishDir = "docs"
+
+[Params]
+description = "技術の情報やポエムを書いたりします。"
+twitter = "https://twitter.com/sys_cat"
+github = "https://github.com/sys-cat"
+highlightjs = true
+gravatar = "afbce425a7e78e7fe74aae1309c78cbe"
