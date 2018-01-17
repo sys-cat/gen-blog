@@ -1,8 +1,10 @@
-languageCode = "ja-JP"
+languageCode = "ja"
+defaultContentLanguage = "ja"
 title = "System with Cat"
 baseurl = "http://sys-cat.github.io"
 theme = "cocoa"
 publishDir = "docs"
+enableEmoji = true
 
 [Params]
 description = "技術の情報やポエムを書いたりします。"
