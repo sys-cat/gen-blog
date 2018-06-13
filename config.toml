@@ -1,14 +1,41 @@
-languageCode = "ja"
+languageCode = "ja-JP"
 defaultContentLanguage = "ja"
 title = "System with Cat"
 baseurl = "http://sys-cat.github.io"
 theme = "cocoa"
 publishDir = "docs"
 enableEmoji = true
+author = "sys-cat"
+contentdir = "content"
+googleAnalytics = "UA-71192655-1"
+
+[[menu.main]]
+name = "Blog"
+weight = -120
+identfier = "blog"
+url = "/blog/"
+
+[[menu.main]]
+name = "About"
+weight = -110
+identfier = "about"
+url = "/about"
+
+[[menu.main]]
+name = "Code"
+weight = -100
+identfier = "code"
+url = "/code"
 
 [Params]
+include_rss = true
+latestpostscount = 10
+i18n_flags = false
+author = "sys-cat"
+email = "systemcat91@gmail.com"
 description = "技術の情報やポエムを書いたりします。"
-twitter = "https://twitter.com/sys_cat"
-github = "https://github.com/sys-cat"
+twitter = "//twitter.com/sys_cat"
+github = "//github.com/sys-cat"
+lang = "ja"
 highlightjs = true
 gravatar = "afbce425a7e78e7fe74aae1309c78cbe"
